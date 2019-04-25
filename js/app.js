@@ -65,7 +65,19 @@ $(document).ready(function(){
 //               Page 2
 // --------------------------------------------------
 
+let creatures = [];
 
+function Creature(rawData){
+  for(let key in rawData){
+    this[key]=rawData[key];
+  }
+}
+
+Creature.prototype.toHtml = function(){
+  let source = $('page2Photos').html();
+  let template = Handlebars.compile(source);
+  return template(this);
+}
 
 // --------------------------------------------------
 //               Script
