@@ -18,32 +18,27 @@
       </select>
       <nav>
         <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Page 1</li>
-          <li><a href="#"></a>Page 2</li>
+          <li><a href="#home"></a>Home</li>
+          <li><a href="#page1"></a>Page 1</li>
+          <li><a href="#page2"></a>Page 2</li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <template id="photo-template">
-        <section>
-          <h2 data-keyword=""></h2>
-            <figure>
-                <img src="" alt="" data-keyword="">
-                <figcaption data-keyword=""></figcaption>
-            </figure>
-        </section>
-      </template>
-      <template id="page2Photos">
-          <article>
-            <h2>{{title}}</h2>
-            <figure>
-              <img>{{image_url}}</img>
-              <figcaption>{{description}}</figcaption>
-          </figure>
-          </article>
+      <section class="page1Photos" id="page1">
+        <template id="photo-template">
+          <section>
+            <h2 data-keyword=""></h2>
+              <figure>
+                  <img src="" alt="" data-keyword="">
+                  <figcaption data-keyword=""></figcaption>
+              </figure>
+          </section>
         </template>
+      </section>
+
+
     </main>
     <footer>
       &copy; 2018 Code Fellows
