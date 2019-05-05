@@ -14,9 +14,9 @@ Actual time needed to complete: _____
 
 Number and name of feature: Feature 3: Styling with Flexbox
 Estimate of time needed to complete: _1:00____
-Start time: _____
-Finish time: _____
-Actual time needed to complete: _____
+Start time: __7:50___
+Finish time: __8:15___
+Actual time needed to complete: __30 min___
 
 Number and name of feature: Feature 4: Sort the images
 Estimate of time needed to complete: _2:00___
